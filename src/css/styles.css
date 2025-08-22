@@ -16,3 +16,100 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.timer {
+  display: flex;
+  gap: 12px; /* відстань між блоками */
+  justify-content: center; /* вирівнювання по центру */
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column; /* щоб число було над підписом */
+  align-items: center;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+/* form */
+
+form.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin-left: 60px;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+input[type="number"] {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+
+fieldset {
+  display: flex;          
+  gap: 20px;               
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+
+fieldset label {
+  display: flex;           
+  align-items: center;     
+  gap: 5px;
+  font-weight: normal;
+  margin-bottom: 0; 
+  flex-direction: row;      
+}
+
+input[type="radio"] {
+  accent-color: #0077cc;
+}
+
+button {
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dfe3e7;
+  color: #0b0b0b;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #d2dadf;
+}
+form input[type="number"],
+form fieldset,
+form button {
+  width: 240px; 
+  box-sizing: border-box; 
+}
