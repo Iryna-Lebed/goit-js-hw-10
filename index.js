@@ -1,2 +1,2 @@
-import"./assets/styles-ClKMU6rP.js";console.log("hh");
+import"./assets/styles-BDs_uPU7.js";console.log("hh");
 //# sourceMappingURL=index.js.map
