@@ -104,12 +104,12 @@ input[type="radio"] {
   transition: background-color 0.2s ease;
 }
 
-button:hover {
+.btn:hover {
   background-color: #d2dadf;
 }
 form input[type="number"],
 form fieldset,
-form button {
+form .btn {
   width: 240px; 
   box-sizing: border-box; 
 }
